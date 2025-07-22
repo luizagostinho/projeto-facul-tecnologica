@@ -7,8 +7,6 @@
     background-color: rgb(54, 117, 255);
     text-align: center;
     padding: 15px;
-    
-    margin: 0;
     border-bottom: 1px solid white;
 }
 body {
@@ -40,28 +38,50 @@ body {
     border-radius: 3px;
 }
     
-
-#content {
+.post {
+    display: block;
+    padding: 10px 0 0 0;
     background-color: #fff;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
 }
 
-#posts h2 {
+.post h2 {
     color: rgb(54, 117, 255);
-    padding: 10px;   
+    padding: 10px 0 0 25px;   
 }
 
-#posts span {
-    padding: 0 0 0 10px;
+.post span {
+    padding: 0 0 0 25px;
 }
 
 #posts hr {
-border-color: rgba(54, 118, 255, 0.726);
-margin: 10px;
+    border-color: rgba(54, 118, 255, 0.726);
+    margin: 20px;
 }
 
-#posts img {
-width: 100%;
-margin: 10px;
+.img-post {
+    display: block;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    width: 550px;
+}
+
+p {
+    text-align: justify;
+    padding: 25px 25px 0;
+}
+
+.post a {
+    color: rgb(54, 117, 255);
+    padding: 0 0 25px 25px;
+    text-decoration: none;
+    
+}
+
+.post a:hover {
+    text-decoration: underline;
 }
