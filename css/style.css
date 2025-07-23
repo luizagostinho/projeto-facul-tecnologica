@@ -37,17 +37,26 @@ body {
     background: white;
     border-radius: 3px;
 }
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
     
+#posts {
+    width: 660px;
+    float: left;
+}
+
 .post {
     display: block;
     padding: 10px 0 0 0;
     background-color: #fff;
-    max-width: 600px;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     border-radius: 5px;
 }
-
 .post h2 {
     color: rgb(54, 117, 255);
     padding: 10px 0 0 25px;   
@@ -77,11 +86,24 @@ p {
 
 .post a {
     color: rgb(54, 117, 255);
-    padding: 0 0 25px 25px;
-    text-decoration: none;
-    
+    padding: 5px 5px 25px 25px;
+    text-decoration: none; 
 }
 
 .post a:hover {
     text-decoration: underline;
+}
+
+#right-side {
+    width: 240px;
+    float: right;
+    top: 0px;
+}
+
+.content-right {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
