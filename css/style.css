@@ -133,5 +133,12 @@ p {
 
 #right-side a:hover {
    text-decoration: underline;
+}
 
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(55, 118, 255);
+    color: white;
 }
