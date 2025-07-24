@@ -3,16 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
 #header {
     background-color: rgb(54, 117, 255);
     text-align: center;
     padding: 15px;
     border-bottom: 1px solid white;
 }
+
 body {
     background-color: #c9c7c7;
 }
-#logo, #menu {
+
+#logo,
+#menu {
     padding: 10px;
 }
 
@@ -43,7 +47,7 @@ body {
     margin: 0 auto;
     padding: 15px;
 }
-    
+
 #posts {
     width: 660px;
     float: left;
@@ -57,9 +61,10 @@ body {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     border-radius: 5px;
 }
+
 .post h2 {
     color: rgb(54, 117, 255);
-    padding: 10px 0 0 25px;   
+    padding: 10px 0 0 25px;
 }
 
 .post span {
@@ -87,7 +92,8 @@ p {
 .post a {
     color: rgb(54, 117, 255);
     padding: 5px 5px 25px 25px;
-    text-decoration: none; 
+    text-decoration: none;
+    padding-bottom: 15px;
 }
 
 .post a:hover {
@@ -108,8 +114,24 @@ p {
     margin-bottom: 20px;
 }
 
+.content-right h3 {
+     background: linear-gradient(to right, rgba(0, 119, 255, 0.925), rgba(0, 255, 149, 0.041));
+     border-radius: 5px;
+     padding: 3px;
+}
+
 .post-right {
     font-size: 13px;
-    padding: 5px;
-    
+    text-align: justify;
+}
+
+#right-side a {
+    color: rgb(54, 117, 255);
+    padding:25px;
+    text-decoration: none;
+}
+
+#right-side a:hover {
+   text-decoration: underline;
+
 }
